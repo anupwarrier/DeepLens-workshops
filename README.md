@@ -58,7 +58,7 @@ AWS DeepLens projects require different levels of permissions, which are set by 
 
 <details>
  
-<summary> Manual steps to create IAM roles for DeepLens </summary>
+<summary> Manual steps to create IAM roles for DeepLens(If the Cloudformation above is failing for some reason) </summary>
 
 ### Role 1- IAM role for AWS DeepLens
 
