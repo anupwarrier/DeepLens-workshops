@@ -143,7 +143,7 @@ _Important, Attach the roles exactly as described. Otherwise, you might have tro
 
 If any of the lists do not have the specified role, find that role in step 2, follow the directions to create the role, choose Refresh IAM roles, and return to where you were in step 3.
 
-Once you have all the roles correctly created and populated, select Next.
+Once you have all the roles correctly created and populated, select **Next**.
 
 ### Step 4- Download certificate
 In this step, you will download and save the required certificate to your computer. You will use it later to enable your DeepLens to connect to AWS.
