@@ -1,7 +1,5 @@
 # DeepLens-workshops
 
-In this project you will learn to build a deep learning model to identify and analyze the sentiments of your audience
-
 ## In this workshop you will learn the following:
 
 1. Register the DeepLens device to your AWS account
