@@ -62,8 +62,10 @@ AWS DeepLens projects require different levels of permissions, which are set by 
  - Click on Resources tab and you should see five IAM roles that CloudFormation template created.
 
  ![](Images/createstack4.png)
+
+<details>
  
-### Manual steps to create IAM roles for DeepLens
+<summary> ### Manual steps to create IAM roles for DeepLens </summary>
 
 ### Role 1- IAM role for AWS DeepLens
 
@@ -125,6 +127,8 @@ Note: These roles are very important. Make sure that you select the right role f
 ![all roles](https://user-images.githubusercontent.com/11222214/38657064-1e278a8a-3dd3-11e8-9dd9-65bbffb22a92.JPG)
 
 Once you have all the roles correctly created and populated, select **Next.**
+
+</details>
 
 ### Step 3- Download certificate
 In this step, you will download and save the required certificate to your computer. You will use it later to enable your DeepLens to connect to AWS.
