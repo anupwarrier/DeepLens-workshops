@@ -51,17 +51,17 @@ AWS DeepLens projects require different levels of permissions, which are set by 
 
  - Select the checkbox "I acknowledge that AWS CloudFormation might create IAM resources with custom names." and click Create.
 
- ![](assets/createstack2.png)
+ ![](Images/createstack2.png)
 
  - Wait for few seconds and refresh the screen to find that status is CREATE_COMPLETE.
 
- ![](assets/createstack3.png)
+ ![](Images/createstack3.png)
 
  - Go to https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks and select the checkbox next to stack DeepLensRoles.
 
  - Click on Resources tab and you should see five IAM roles that CloudFormation template created.
 
- ![](assets/createstack3.png)
+ ![](Images/createstack4.png)
  
 ### Manual steps to create IAM roles for DeepLens
 
