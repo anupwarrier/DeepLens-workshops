@@ -1,27 +1,22 @@
 # DeepLens-workshops
 
-In this workshop you will learn how to build a sentiment analysis project for your DeepLens. This project was submitted by Ricardo Mota and Jidesh Veeramachaneni as part of the DeepLens Hackathon challenge.
-
 In this project you will learn to build a deep learning model to identify and analyze the sentiments of your audience
 
 ## In this workshop you will learn the following:
 
-1. How to build and train a face detection model in SageMaker
+1. Register the DeepLens device to your AWS account
 2. Modify the DeepLens inference lambda function to upload cropped faces to S3
 3. Deploy the inference lambda function and face detection model to DeepLens
 4. Create a lambda function to trigger Rekognition to identify emotions
 5. Create a DynamoDB table to store the recognized emotions
-6. Analyze using CloudWatch
+6. Analyze sentiments using CloudWatch
 
 ![image](https://user-images.githubusercontent.com/11222214/37996605-1ba4be34-31cd-11e8-9e25-ba3a1cdbc9db.png)
 
-The workshop consists of 4 hands-on lab sessions:
+The workshop consists of 3 hands-on lab sessions:
 
-# Hands-on Lab 1: Build and train a face detection model in SageMaker
 
-In this lab, you will build and train a face detection model. You can find the instructions here: [SageMaker lab](https://github.com/fibbonnaci/DeepLens-workshops/tree/master/SageMaker%20lab)
-
-# Hands-on Lab 2: Register and configure your DeepLens device
+# Hands-on Lab 1: Register and configure your DeepLens device
 
 ## Register AWS DeepLens
 
@@ -213,7 +208,7 @@ Note: Instead, if you are presented with the below screen, type the device passw
 
 Congratulations! You have successfully registered and configured your DeepLens device. To verify, return to [AWS DeepLens console](https://console.aws.amazon.com/deeplens/home?region=us-east-1#projects) and select **Devices** in the left side navigation bar and verify that your device has completed the registration process. You should see a green check mark and Completed under Registration status.
 
-# Hands-on Lab 3: Build a project to detect faces and send the cropped faces to S3 bucket
+# Hands-on Lab 2: Build a project to detect faces and send the cropped faces to S3 bucket
 
 #### IAM Roles:
 
@@ -313,7 +308,7 @@ On the AWS DeepLens console, you can track the progress of the deployment. It ca
 You will find your cropped faces uplaod to your S3 bucket.
 
 
-# Hands-on Lab 4: Identify emotions
+# Hands-on Lab 3: Identify emotions
 
 **Step 1- Create DynamoDB table**
 
@@ -404,10 +399,9 @@ NOTE: These metrics will only appear once they have been sent to Cloudwatch via 
 
 
 ### With this we have come to the end of the session. As part of building this project, you learnt the following:
-
-1.	How to build and train a face detection model in SageMaker
-2.	Modify the DeepLens inference lambda function to upload cropped faces to S3
-3.	Deploy the inference lambda function and face detection model to DeepLens
-4.	Create a lambda function to trigger Rekognition to identify emotions
-5.	Create a DynamoDB table to store the recognized emotions
-6.	Analyze using CloudWatch
+1. Register the DeepLens device to your AWS account
+2. Modify the DeepLens inference lambda function to upload cropped faces to S3
+3. Deploy the inference lambda function and face detection model to DeepLens
+4. Create a lambda function to trigger Rekognition to identify emotions
+5. Create a DynamoDB table to store the recognized emotions
+6. Analyze sentiments using CloudWatch
