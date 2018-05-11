@@ -65,7 +65,7 @@ AWS DeepLens projects require different levels of permissions, which are set by 
 
 <details>
  
-<summary> ### Manual steps to create IAM roles for DeepLens </summary>
+### <summary> Manual steps to create IAM roles for DeepLens </summary>
 
 ### Role 1- IAM role for AWS DeepLens
 
@@ -130,7 +130,20 @@ Once you have all the roles correctly created and populated, select **Next.**
 
 </details>
 
-### Step 3- Download certificate
+### Step 3- Refresh IAM roles and Select the newly created Role Name
+
+In AWS DeepLens, on the Set permissions page, choose Refresh IAM roles, then do the following:
+   - For IAM role for AWS DeepLens, choose AWSDeepLensServiceRole.
+   - For IAM role for AWS Greengrass service, choose AWSDeepLensGreengrassRole.
+   - For IAM role for AWS Greengrass device groups, choose AWSDeepLensGreegrassGroupRole.
+   - For IAM role for Amazon SageMaker, choose AWSDeepLensSagemakerRole.
+   - For IAM role for AWS Lambda, choose AWSDeepLensLambdaRole.
+
+_Important, Attach the roles exactly as described. Otherwise, you might have trouble deploying models to AWS DeepLens._
+
+If any of the lists do not have the specified role, find that role in step 2, follow the directions to create the role, choose Refresh IAM roles, and return to where you were in step 3.
+
+### Step 4- Download certificate
 In this step, you will download and save the required certificate to your computer. You will use it later to enable your DeepLens to connect to AWS.
 
 Select Download certificate and note the location of the certificates.zip file. Select Register.
@@ -167,7 +180,7 @@ Power ON your device
   
 </details>
 
-### Step 4- Connect to your network
+### Step 5- Connect to your network
 
 Select your local Wi-Fi network ID from the dropdown list and enter your WiFi password. If you are using ethernet, choose Use Ethernet option instead.
 
@@ -175,7 +188,7 @@ Select Save.
 
 ![network connection](https://user-images.githubusercontent.com/11222214/38657139-77c96aa4-3dd3-11e8-8cba-97dc3c47fc66.JPG)
 
-### Step 5- Attach Certificates
+### Step 6- Attach Certificates
 
 Select Browse in the Certificate section. Select the zip file you downloaded in Step 4 
 
@@ -183,7 +196,7 @@ Select Next.
 
 ![upload certificate](https://user-images.githubusercontent.com/11222214/38657156-8cc8c5b2-3dd3-11e8-9261-dda8a8925cca.JPG)
 
-### Step 6- Device set up.
+### Step 7- Device set up.
 
 If you are on the device summary page- Please do not make changes to the password.
 
@@ -191,7 +204,7 @@ Note: Instead, if you are presented with the below screen, type the device passw
 
 ![device settings](https://user-images.githubusercontent.com/11222214/38657201-c44385fe-3dd3-11e8-8497-7add710be21b.JPG)
 
-### Step 7- Select Finish
+### Step 8- Select Finish
 
 ![set up summary finish](https://user-images.githubusercontent.com/11222214/38657410-ea300d36-3dd4-11e8-9312-c3ef909a1771.JPG)
 
