@@ -1,4 +1,4 @@
-# DeepLens-workshops
+# DeepLens-Workshop Labs
 
 ## In this workshop you will learn the following:
 
