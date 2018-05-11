@@ -18,7 +18,7 @@ The workshop consists of 3 hands-on lab sessions:
 
 ## Register AWS DeepLens
 
-Visit [AWS Management Console](https://console.aws.amazon.com/console/home?region=us-east-1). Make sure you are on US-East (N.Virginia) region.
+Visit [AWS Management Console](https://console.aws.amazon.com/console/home?region=us-east-1). Make sure you are on **US-East (N.Virginia) region**.
 
 Search for DeepLens in the search bar and select AWS DeepLens to open the console.
 
